@@ -1,0 +1,18 @@
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+  
+ 
+inp=int(input("Enter the maximum stars in a rows :"))
+
+
+for i in range (inp):
+    print(" "*(inp-i-1) + "* "*(i+1))
+for j in range (inp-1,-1,-1):
+    print(" "*(inp-j) + "* "*(j))
